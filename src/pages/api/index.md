@@ -1,5 +1,14 @@
 ---
-title: Cat API Spec 2.0
-description: Cat API Spec 2.0
-openAPISpec:  /petstore.json
---- 
+title: Home API - Painter Python API
+description: Substance 3D Painter - Python API
+keywords:
+  - Creative Cloud
+  - API Documentation
+  - Substance 3D
+  - Painter
+---
+
+Home API
+======
+
+Coming soon.

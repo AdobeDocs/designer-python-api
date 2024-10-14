@@ -1,84 +1,50 @@
 ---
-title: Overview - Cat Analytics
-description: This is the overview page of Cat Analytics
-contributors:
-  - https://github.com/icaraps 
+title: Substance 3D Designer - Python API
+description: This is the overview page of Substance 3D Designer Python API
+featured: true
 ---
 
-<Hero slots="heading, text"/>
+<Hero slots="image, heading, text" background="rgb(1, 46, 24)" hideBreadcrumbNav={true} />
 
-# Cat Analytics API
+![Hero image](./hero.png)
 
-Cat Product API offers limitless ways to integrate your most important customer data into key business processes. Cat Product API offer limitless ways.
+# Substance 3D Designer - Python API
 
-<Resources slots="heading, links"/>
-
-#### Resources
-
-* [Quickstart Guide](https://developer.adobe.com)
-* [Cat Analytics Github Repo](https://github.com/AdobeDocs/dev-site)
+Learn and discover the Python API integrated inside Substance 3D Designer.
 
 ## Overview
 
-This documentation provides instructions for Catt Analytics 2.0 APIs. For working with Cat Analytics APIs, see [Cat Analytics API Documentation](https://github.com/AdobeDocs/dev-site).
+The Python API allows to manipulate Designer in many ways, allowing to add custom features, automate tasks and so work more effectively. 
 
-The Cat Analytics APIs are a collection of APIs that power Cat Analytics products like Cat Workspace.
-The APIs allow for the creation of data rich user interfaces that you can use to manipulate and integrate data.
-You can also create reports to explore, get insights, or answer important questions about your data.
+Check out the API to get a listing of all the functionalities available. The guides are also a great way to start and build custom plugins.
 
-## Discover
-
-<DiscoverBlock width="100%" slots="heading, link, text"/>
-
-### Get Started
-
-[Quickstart Guide](guides/)
-
-Get started with the Cat Analytics APIs.
-
-<DiscoverBlock slots="heading, link, text"/>
+---
 
 ### Guides
 
-[Calculated Metrics API](guides/dummy_metrics_api/)
+Get started with the Painter's Python API.
 
-Returns information on the user's company that is necessary for making other Cat Analytics API calls.
+- [Creating a python plugin](guides/creating-python-plugin.md)
+  This step by step guide describes how to create a simple Python plugin that allows to ...
+- [Using external Python modules](guides/using-external-modules.md)
+  This page shows how to use external modules with the Python integration by using the PYTHONPATH environment variable.
+- [Loading external plugins](guides/loading-external-plugins.md)
+  This page explains how to use an environment variable to define an additional location to load Python plugins.
 
-<DiscoverBlock slots="link, text"/>
+---
 
-[Segments API](guides/dummy_oauth_client/)
+### Examples
 
-Provides configuration guidance and best practices for the /segments endpoint.
+A few examples plugins are available to demonstrate the power of the Python API.
 
-<DiscoverBlock slots="link, text"/>
+- [Macros](guides/examples/macros.md)
 
-[Reporting Guide API](guides/dummy_using_postman/)
+---
 
-Provides configuration guidance and best practices for the /reports endpoint.
+### API Reference
 
-<DiscoverBlock slots="link, text"/>
+[API Reference](https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html)
 
-[Migrating from 1.4 to 2.0](guides/migrating/)
+Check out the API reference to get a full overview of the functionalities available. The API also contains numerous exmaples to get an idea on how to use it.
 
-For help migrating from the 1.4 versions of the Analytics API to the newer and more capable /reports API.
-
-<DiscoverBlock width="100%" slots="heading, link, text"/>
-
-### API References
-
-[Try the API](api/)
-
-Try the Analytics API with Swagger UI. Explore, make calls, with full endpoint descriptions.
-
-## Contributing
-
-We encourage you to participate in our open documentation initiative, if you have suggestions, corrections, additions
-or deletions for this documentation, check out the source from [this github repo](https://github.com/adobe/gatsby-theme-spectrum-example), and submit a pull
-request with your contribution. For more information, refer to the [contributing page](support/contribute/).
-
-## API Requests & Rate Limits
-
-The timeout for API requests through adobe.io is currently *60 seconds*.
-
-The default rate limit for an Cat Analytics Company is *120 requests per minute*. (The limit is enforced as *12 requests every 6 seconds*).
-When rate limiting is being enforced you will get `429` HTTP response codes with the following response body: `{"error_code":"429050","message":"Too many requests"}`.
+---
