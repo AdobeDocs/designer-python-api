@@ -26,8 +26,8 @@ Get started with the Designer's Python API. Here are some basic samples to copy/
 
 - [Create a compositing graph with some nodes](guides/examples/compositing_graph.md)
 - [Use some objects in a graph (Frames, Pins, Comments)](guides/examples/graph_object.md)
-- [Work with instances](guides/instance.md)
-- [Control a parameter with a function](guides/parameters.md)
+- [Work with instances](guides/examples/instance.md)
+- [Control a parameter with a function](guides/examples/parameters.md)
 
 ---
 
