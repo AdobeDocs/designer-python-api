@@ -22,29 +22,29 @@ Check out the API to get a listing of all the functionalities available. The gui
 
 ### Guides
 
-Get started with the Painter's Python API.
+Get started with the Designer's Python API. Here are some basic samples to copy/paste directly in the Python Editor embedded in Designer. 
 
-- [Creating a python plugin](guides/creating-python-plugin.md)
-  This step by step guide describes how to create a simple Python plugin that allows to ...
-- [Using external Python modules](guides/using-external-modules.md)
-  This page shows how to use external modules with the Python integration by using the PYTHONPATH environment variable.
-- [Loading external plugins](guides/loading-external-plugins.md)
-  This page explains how to use an environment variable to define an additional location to load Python plugins.
+- [Create a compositing graph with some nodes](guides/examples/compositing_graph.md)
+- [Use some objects in a graph (Frames, Pins, Comments)](guides/examples/graph_object.md)
+- [Work with instances](guides/instance.md)
+- [Control a parameter with a function](guides/parameters.md)
 
 ---
 
-### Examples
+### Ready to use plugins to download 
 
-A few examples plugins are available to demonstrate the power of the Python API.
+In this section, you will find ready-to-use plugins, created by Adobe, to enhance Substance 3D Designer.
 
-- [Macros](guides/examples/macros.md)
+- [Macros](plugins/macros.md)
+This plugin allows you to create Node macros, it means you can save one node or a set of nodes, with custom parameters, and quickly reuse them in another graph, like a shelf with predefined nodes. 
 
 ---
 
 ### API Reference
 
 [API Reference](https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html)
+Check out the API reference to understand all the main concepts of Scripting inside Designer. 
 
-Check out the API reference to get a full overview of the functionalities available. The API also contains numerous exmaples to get an idea on how to use it.
+You can also refer to the documentation shipped with Substance 3D Designer that is accessible directly from the application, in Help > Python API Documentation.
 
 ---
