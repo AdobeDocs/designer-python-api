@@ -13,8 +13,8 @@ Substance compositing graph creation
 ========================
 
 This sample shows how to create a simple Substance Compositing Graph that uses:
-- two Uniform Colors
-- a Noise
+- two Uniform Colors Nodes
+- a Noise Node
 - a Blend Node
 - an Output Node
 ---
