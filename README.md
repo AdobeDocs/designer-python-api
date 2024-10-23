@@ -55,6 +55,7 @@ For more in-depth [instructions](https://github.com/adobe/aio-theme#getting-star
 
 For any team that wishes to deploy to the developer.adobe.com and developer-stage.adobe.com websites, they must be in contact with the dev-site team. Teams will be given a path that will follow the pattern `developer.adobe.com/{product}/`. This will allow doc developers to setup their subpaths to look something like:
 
+
 ```text
 developer.adobe.com/{product}/docs
 developer.adobe.com/{product}/community
