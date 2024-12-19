@@ -22,7 +22,7 @@ This plugin will add two buttons in the graph toolbar:
 
 ### Download v1.0
 
-- [Package to install through CCD](Macros/NodeMacros.zxp)
-- [Files to copy manually in the Plugin folder](Macros/NodeMacros.zip)
+- [Package to install through CCD](Macros/NodesMacro.zxp)
+- [Files to copy manually in the Plugin folder](Macros/NodesMacro.zip)
 
 ---
