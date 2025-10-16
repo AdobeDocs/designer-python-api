@@ -20,11 +20,11 @@ module.exports = {
 		pages: [
 			{
 				title: 'Python API',
-				path: 'https://adobedocs.github.io/designer-python-api/'
+				path: '/designer-python-api/'
 			},
 			{
 				title: 'Guides & Examples',
-				path: '/guides/'
+				path: '/designer-python-api/guides/examples/'
 			},
 			{
 				title: 'API Reference',
