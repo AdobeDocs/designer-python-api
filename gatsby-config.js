@@ -12,29 +12,30 @@
 
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/designer-python-api/',
+
   siteMetadata: {
-    pages: [
-      {
-        title: 'Designer',
-        path: '/'
-      },
-      {
-        title: 'Python API',
-        path: '/guides/'
-      },
-      {
-        title: 'Guides & Examples',
-        path: '/api/1.4.md'
-      },
-      {
-        title: 'API Reference',
-        path: '/api/1.4.md'
-      },
-      {
-        title: 'Documentation',
-        path: '/api/1.4.md'
-      },
-      {
+		home: {
+			title: 'Designer',
+			path: 'https://www.adobe.com/products/substance3d/apps/designer.html'
+		},
+		pages: [
+			{
+				title: 'Python API',
+				path: 'https://adobedocs.github.io/designer-python-api/'
+			},
+			{
+				title: 'Guides & Examples',
+				path: '/guides/'
+			},
+			{
+				title: 'API Reference',
+				path: '/api/'
+			},
+			{
+				title: 'Documentation',
+				path: 'https://adobe.com/go/Substance-3D-doc-Designer'
+			},
+			{
         title: 'Support',
         menu: [
           {
@@ -46,63 +47,77 @@ module.exports = {
             path: 'https://adobe.com/go/Substance-3D-forum-Designer'
           }
         ]
-      }
-    ],
-    subPages: [
-      {
-        title: 'Get Started',
-        path: '/guides/',
-        pages: [
-          {
-            title: 'Dummy an OAuth Client',
-            path: '/guides/dummy_oauth_client/'
-          },
-          {
-            title: 'Dummy OAuth using POSTMAN',
-            path: '/guides/dummy_using_postman/'
-          }
-        ]
-      },
-      {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
-      },
-      {
-        title: 'Migrating',
-        path: '/guides/migrating/'
-      },
-      {
-        title: 'Overview',
-        path: '/support/',
-        header: true,
-        pages: [
-          {
-            title: 'Help',
-            path: '/support/'
-          },
-          {
-            title: 'FAQ',
-            path: '/support/FAQ/'
-          },
-          {
-            title: 'How to contribute',
-            path: '/support/contribute/'
-          }
-        ]
-      },
-      {
-        title: 'Community',
-        path: '/support/community/',
-        header: true,
-        pages: [
-          {
-            title: 'Information',
-            path: '/support/community/'
-          }
-        ]
-      }
-    ]
-  },
-  plugins: [`@adobe/gatsby-theme-aio`]
-
+			}
+		],
+		subPages: [
+			{
+				title: "Guides & Examples",
+				header: true,
+				path: "/guides/",
+				pages: [
+					{
+						title : "Guides",
+						path: "/guides/",
+						pages: [
+							{
+								title: "Creating a Python plugin",
+								path: "/guides/creating-python-plugin/"
+							},
+							{
+								title: "Using external modules",
+								path: "/guides/using-external-modules/"
+							},
+							{
+								title: "Using external plugins",
+								path: "/guides/loading-external-plugins/"
+							},
+							{
+								title: "Remote control",
+								path: "/guides/remote-control/"
+							},
+							{
+								title: "Qt6 migration",
+								path: "/guides/qt6-migration/"
+							}
+						]
+					},
+					{
+						title : "Examples",
+						path: "/guides/examples/",
+						pages: [
+							{
+								title: "Create a compositing graph with some nodes",
+								path: "/guides/examples/compositing_graph/"
+							},
+							{
+								title: "Use some objects in a graph (Frames, Pins, Comments)",
+								path: "/guides/examples/graph_object/"
+							},
+							{
+								title: "Work with instances",
+								path: "/guides/examples/instance/"
+							}
+							{
+								title: "Control a parameter with a function",
+								path: "/guides/examples/parameters/"
+							}
+						]
+					}
+				]
+			},
+			{
+				title: "Python API",
+				header: true,
+				path: "https://adobedocs.github.io/designer-python-api/",
+				pages: [
+					{
+						title : "Home",
+						path: "https://adobedocs.github.io/designer-python-api/",
+					}
+				]
+			}
+		]
+  	},
+	plugins: [`@adobe/gatsby-theme-aio`]
 };
+
