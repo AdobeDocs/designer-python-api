@@ -53,7 +53,7 @@ module.exports = {
 			{
 				title: "Guides & Examples",
 				header: true,
-				path: "/guides/examples/",
+				path: "/compositing_graph/examples/",
 				pages: [
 					/*{
 						title : "Guides",
@@ -83,7 +83,7 @@ module.exports = {
 					},*/
 					{
 						title : "Examples",
-						path: "/guides/examples/",
+						path: "/guides/compositing_graph/",
 						pages: [
 							{
 								title: "Create a compositing graph with some nodes",
