@@ -13,28 +13,28 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/designer-python-api/',
   siteMetadata: {
-    pages: [
-      {
-        title: 'Designer',
-        path: '/'
-      },
-      {
-        title: 'Python API',
-        path: '/guides/'
-      },
-      {
-        title: 'Guides & Examples',
-        path: '/api/1.4.md'
-      },
-      {
-        title: 'API Reference',
-        path: '/api/1.4.md'
-      },
-      {
-        title: 'Documentation',
-        path: '/api/1.4.md'
-      },
-      {
+    home: {
+			title: 'Designer',
+			path: 'https://www.adobe.com/products/substance3d/apps/designer.html'
+		},
+		pages: [
+			{
+				title: 'Python API',
+				path: 'https://adobedocs.github.io/designer-python-api/'
+			},
+			{
+				title: 'Guides & Examples',
+				path: '/guides/'
+			},
+			{
+				title: 'API Reference',
+				path: '/api/'
+			},
+			{
+				title: 'Documentation',
+				path: 'https://adobe.com/go/Substance-3D-doc-Designer'
+			},
+			{
         title: 'Support',
         menu: [
           {
@@ -46,8 +46,8 @@ module.exports = {
             path: 'https://adobe.com/go/Substance-3D-forum-Designer'
           }
         ]
-      }
-    ],
+			}
+		],
     subPages: [
       {
         title: 'Get Started',
