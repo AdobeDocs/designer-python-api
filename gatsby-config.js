@@ -96,7 +96,7 @@ module.exports = {
 							{
 								title: "Work with instances",
 								path: "/guides/examples/instance/"
-							}
+							},
 							{
 								title: "Control a parameter with a function",
 								path: "/guides/examples/parameters/"
