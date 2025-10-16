@@ -55,7 +55,7 @@ module.exports = {
 				header: true,
 				path: "/guides/",
 				pages: [
-					{/*
+					/*{
 						title : "Guides",
 						path: "/guides/",
 						pages: [
