@@ -13,99 +13,40 @@
 module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/designer-python-api/',
   siteMetadata: {
-    versions: [
-      {
-        title: 'v2.0',
-        selected: true
-      },
-      {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/dev-site'
-      }
-    ],
     pages: [
       {
-        title: 'Cat Analytics',
+        title: 'Designer',
         path: '/'
       },
       {
-        title: 'Guides',
+        title: 'Python API',
         path: '/guides/'
       },
       {
+        title: 'Guides & Examples',
+        path: '/api/1.4.md'
+      },
+      {
         title: 'API Reference',
-        menu: [
-          {
-            title: 'Cat Reference v2.0',
-            description: 'Cat Reporting API',
-            path: '/api/index.md'
-          },
-          {
-            title: 'Cat Reference v1.4',
-            description: 'Cat API Spec',
-            path: '/api/1.4.md'
-          }
-        ]
+        path: '/api/1.4.md'
+      },
+      {
+        title: 'Documentation',
+        path: '/api/1.4.md'
       },
       {
         title: 'Support',
-        path: '/support/'
-      }
-    ],
-    subPages: [
-      {
-        title: 'Get Started',
-        path: '/guides/',
-        pages: [
+        menu: [
           {
-            title: 'Dummy an OAuth Client',
-            path: '/guides/dummy_oauth_client/'
+            title: 'Discord',
+            path: 'https://discord.gg/5QuYaYrV'
           },
           {
-            title: 'Dummy OAuth using POSTMAN',
-            path: '/guides/dummy_using_postman/'
-          }
-        ]
-      },
-      {
-        title: 'Cat Metrics API',
-        path: '/guides/dummy_metrics_api/'
-      },
-      {
-        title: 'Migrating',
-        path: '/guides/migrating/'
-      },
-      {
-        title: 'Overview',
-        path: '/support/',
-        header: true,
-        pages: [
-          {
-            title: 'Help',
-            path: '/support/'
-          },
-          {
-            title: 'FAQ',
-            path: '/support/FAQ/'
-          },
-          {
-            title: 'How to contribute',
-            path: '/support/contribute/'
-          }
-        ]
-      },
-      {
-        title: 'Community',
-        path: '/support/community/',
-        header: true,
-        pages: [
-          {
-            title: 'Information',
-            path: '/support/community/'
+            title: 'Forum',
+            path: 'https://adobe.com/go/Substance-3D-forum-Designer'
           }
         ]
       }
     ]
-  },
-  plugins: [`@adobe/gatsby-theme-aio`]
+  }   
 };
