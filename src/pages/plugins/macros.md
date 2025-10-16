@@ -1,6 +1,6 @@
 ---
 title: Substance 3D Designer - Python API
-description: Plugin Node Macro
+description: Node snippets plugin
 featured: true
 ---
 
@@ -8,7 +8,7 @@ featured: true
 
 ![Hero image](../hero.png)
 
-# Substance 3D Designer - Node Plugin Macro
+# Substance 3D Designer - Node snippets plugin
 
 Learn and discover the Python API integrated inside Substance 3D Designer.
 
