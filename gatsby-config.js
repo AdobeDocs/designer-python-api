@@ -104,5 +104,5 @@ module.exports = {
     ]
   },
   plugins: [`@adobe/gatsby-theme-aio`]
-  }   
+
 };
