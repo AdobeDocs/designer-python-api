@@ -55,7 +55,7 @@ module.exports = {
 				header: true,
 				path: "/guides/",
 				pages: [
-					{
+					{/*
 						title : "Guides",
 						path: "/guides/",
 						pages: [
@@ -80,7 +80,7 @@ module.exports = {
 								path: "/guides/qt6-migration/"
 							}
 						]
-					},
+					},*/
 					{
 						title : "Examples",
 						path: "/guides/examples/",
