@@ -15,7 +15,7 @@ Learn and discover the Python API integrated inside Substance 3D Designer.
 ## Overview
 
 This plugin will add two buttons in the graph toolbar:
-- one to save a node macro: to save a set of nodes as a macro, select the corresponding nodes in the graph and click this button. Then, define a name and a description. The name will be the name of the associated button in the toolbar, the description will be its tooltip.
+- one to save a node snippet: to save a set of nodes as a macro, select the corresponding nodes in the graph and click this button. Then, define a name and a description. The name will be the name of the associated button in the toolbar, the description will be its tooltip.
 - one to organize your added macros: click it to reorder or delete macros thanks to this button. 
 
 ---
