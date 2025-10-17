@@ -25,11 +25,11 @@ module.exports = {
 			{
 				title: 'Guides & Examples',
 				path: '/designer-python-api/guides/examples/'
-			},
+			},/*
 			{
 				title: 'API Reference',
 				path: '/api/'
-			},
+			},*/
 			{
 				title: 'Documentation',
 				path: 'https://adobe.com/go/Substance-3D-doc-Designer'
@@ -47,7 +47,7 @@ module.exports = {
           }
         ]
 			}
-		],
+		]/*,
     subPages: [
       {
         title: 'Get Started',
@@ -101,7 +101,7 @@ module.exports = {
           }
         ]
       }
-    ]
+    ]*/
   },
-  plugins: [`@adobe/gatsby-theme-aio`]
+ /* plugins: [`@adobe/gatsby-theme-aio`]*/
 };
