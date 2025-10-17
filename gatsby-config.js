@@ -47,7 +47,7 @@ module.exports = {
           }
         ]
 			}
-		]/*,
+		],
     subPages: [
       {
         title: 'Get Started',
@@ -101,7 +101,7 @@ module.exports = {
           }
         ]
       }
-    ]*/
+    ]
   },
  /* plugins: [`@adobe/gatsby-theme-aio`]*/
 };
