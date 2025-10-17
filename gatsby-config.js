@@ -25,11 +25,11 @@ module.exports = {
 			{
 				title: 'Guides & Examples',
 				path: '/designer-python-api/guides/examples/'
-			},/*
+			},
 			{
 				title: 'API Reference',
-				path: '/api/'
-			},*/
+				path: 'https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html'
+			},
 			{
 				title: 'Documentation',
 				path: 'https://adobe.com/go/Substance-3D-doc-Designer'

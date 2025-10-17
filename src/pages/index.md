@@ -35,8 +35,8 @@ Get started with the Designer's Python API. Here are some basic samples to copy/
 
 In this section, you will find ready-to-use plugins, created by Adobe, to enhance Substance 3D Designer.
 
-- [Macros](plugins/macros.md)
-This plugin allows you to create Node macros, it means you can save one node or a set of nodes, with custom parameters, and quickly reuse them in another graph, like a shelf with predefined nodes. 
+- [Node Snippets](plugins/macros.md)
+This plugin allows you to create node snippets, it means you can save one node or a set of nodes, with custom parameters, and quickly reuse them in another graph, like a shelf with predefined nodes. 
 
 ---
 
